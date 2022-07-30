@@ -1,0 +1,64 @@
+
+.ourChefs_h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.slick-next:before{
+    font-size: 3rem;
+    color: black!important;
+  
+}
+.slick-next{
+    position: static;
+}
+.chef_img{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+.chef_img img{
+    display: inline;
+    width: 80%;
+}
+.chef_desc{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+}
+.chef_desc p{
+    text-shadow: 0 .09rem .25rem rgba(0, 0, 0, .3)
+}
+.main_chef{
+    /* background-color: #FEBD23!important; */
+    /* border: none!important; */
+    position: relative;
+}
+.slick-dots{
+    /* width: 10px!important; */
+    /* background-color: rgb(77, 255, 0); */
+    position: absolute;
+    top:0;
+    
+    height: .2rem;
+}
+
+@media (max-width:575px) {
+    .slick-dots{
+        /* width: 10px!important; */
+        /* background-color: rgb(77, 255, 0); */
+        position: static;
+        
+    }
+}
+.slick-dots button::before{
+    display: block!important;
+    content: "*"!important;
+    width: 100%!important;
+    height: .9rem!important;
+    font-size: 2rem!important;
+    padding: 5px!important;
+    color: #FEBD23!important;
+    
+}

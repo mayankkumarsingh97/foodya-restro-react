@@ -1,0 +1,154 @@
+body{
+    background-color: #FBF4EE!important;
+}
+.main{
+    position: relative; 
+    z-index: -10;
+    display: flex;
+    flex-direction: column;
+    height: 280px;
+    width:85%;
+    align-items: center;
+     justify-content: space-between;
+    /* border: 1px solid #000; */
+    clip-path: polygon(0 0, 100% 17%, 100% 100%, 0% 100%);
+    background-color: #fff;
+    /* box-shadow: inset 0 0 0 10px 10px rgba(42, 40, 40, 0.3); */
+    border-bottom-right-radius: 3%;
+    border-bottom-left-radius: 3%;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 3%;
+    padding:3rem .25rem;
+    
+
+}
+
+.main .menu_img h3{
+    font-size: 1.3rem;
+}
+
+.story{
+    /* height: 100%; */
+    display: flex;
+    /* position: absolute;
+    top:0;
+    left:0; */
+    justify-content:center;
+    align-items: center;
+    width: 100%;
+    /* z-index: 100000!important; */
+    /* background-color: aqua; */
+    /* border: 1px solid red; */
+
+
+}
+.menu_h1{
+    text-align: center;
+    font-size: 2rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif!important;  
+    font-weight: 800; 
+    
+    
+}
+.story img{
+    width: 45%;
+    position: absolute;
+    top:1%;
+    left: 20%;
+    box-shadow: 0 0 22px 5px rgba(0, 0, 0, .296);
+    border-radius: 50%;
+    /* z-index: 100000!important; */
+}
+@media (min-width:576px) and (max-width:768px) {
+    .main{
+        height: 190px;
+        
+
+    }
+    .menu_img h3{
+        font-size: .9rem!important;
+        font-weight: 600;
+    }
+}
+
+@media (max-width:575px) {
+    .main{
+        height: 230px;
+        width: 100%;
+    }
+    .story img{
+        width: 60%;
+        position: absolute;
+        top:0;
+        bottom:10px;
+        /* z-index: 100000!important; */
+    }
+    .menu_img h3{
+        font-size: 1rem!important;
+        font-weight: 600;
+    }
+    .menu_img{
+        height: 45%;
+        top:40%;
+    }
+    .story{
+        height: 50%;
+    }
+    .order_now_btn{
+        font-size: .9rem;
+        font-weight: 800!important;
+    }
+}
+
+.menu_img{
+
+    position: relative;
+    display: flex;
+    top:65%;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: rgb(52, 160, 25); */
+
+}
+
+.order_now_btn{
+    width: 100%;
+    padding: .35rem 1.4rem .35rem .65rem;
+    text-align: center;
+    font-size: .8rem;
+    /* clip-path: polygon(0 71%, 78% 71%, 100% 100%, 0% 100%); */
+    clip-path:  polygon(0 0, 80% 0, 100% 100%, 0% 100%);
+    background-color: #FEBD23;
+    margin:0 0 .65rem 0;
+    font-weight: 800;
+    border-radius: 4px;
+
+
+}
+
+
+
+
+.story .food_img{
+    border-radius: 50%;
+    box-shadow: 0 0 .95rem .04rem rgba(0, 0, 0, .296);
+}
+
+/* menu add to cart button  */
+
+.addtocart{
+    /* background-color: lightblue; */
+    display: inline-block;
+    padding:0 .10rem;
+    width: 30%;
+    cursor: pointer;
+
+}
+.addtocart button{
+    text-align: center;
+    cursor: pointer!important;
+    border: none;
+    padding:.01rem .25rem;
+    border-radius: 5px;
+    background-color: #FEBD23;
+}

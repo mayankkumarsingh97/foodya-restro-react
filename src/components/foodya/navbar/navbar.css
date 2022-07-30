@@ -1,0 +1,25 @@
+nav ul,li{
+    padding:0;margin:0;
+}
+nav ul li a{
+    font-weight: 700;
+}
+nav ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul li a:hover{
+ color: #f8b922 !important;
+}
+.logo a img{
+    width: 45%;
+}
+nav ul li a img{
+    width: 70%;
+}
+#menu_circle:last-child{
+    list-style: circle;
+    color:black;
+}

@@ -1,0 +1,62 @@
+.contact_us_form form{
+    width: 100%;
+
+}
+.contact_us_form form input{
+    margin:.25rem .15rem;
+    display: inline-block;
+    width: 49%;
+    padding: .35rem .95rem;
+    outline: none;
+    border: 3px solid #febd23;
+    border-radius: 30px;
+    font-size: 1rem;
+}
+.submit_btn{
+    background-color: #febd23;
+    color:black;
+    font-weight: 600;
+}
+.contact_us_desc span{
+
+    color: #febd23;
+    font-size: 1.8rem;
+    font-weight: 800;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.contact_us_btn{
+    width: 25%;
+    padding: .35rem 1.4rem .35rem .65rem;
+    text-align: center;
+    font-size: 14px;
+    cursor: pointer;
+    /* clip-path: polygon(0 71%, 78% 71%, 100% 100%, 0% 100%); */
+    clip-path:  polygon(0 0, 80% 0, 100% 100%, 0% 100%);
+    background-color: #FEBD23;
+    margin:0 0 .65rem 0;
+    font-weight: 800;
+    border-radius: 4px;
+}
+
+.contactus_img{
+    display: flex;
+}
+.contactus_img img{
+    width: 125%;
+    height: 100%;
+    object-fit: fill;
+}
+
+
+@media (max-width:575px) {
+    .contact_us_form form input{
+        margin:.25rem .25rem;
+        display: inline-block;
+        width: 100%;
+    } 
+    .contactus_img img{
+        width: 100%;
+        height: auto;
+    }
+}

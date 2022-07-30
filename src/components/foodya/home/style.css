@@ -1,0 +1,88 @@
+body{
+    background: #fbf4ee !important; ;
+}
+.Banner_images img{
+    width: 101.56%;
+
+}
+
+
+.home_1st_wrappeer h2{
+ font-size: 2.5rem;
+ font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
+ font-weight: 900;
+}
+.home_1st_wrappeer .fresh_menu{
+    font-size: 2rem;
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 300!important;
+}
+.home_1st_wrappeer .desc{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.home .order_now_btn{
+    width: 40%;
+    padding: .35rem 1.4rem .35rem .65rem;
+    text-align: center;
+    font-size: .8rem;
+    /* clip-path: polygon(0 71%, 78% 71%, 100% 100%, 0% 100%); */
+    clip-path:  polygon(0 0, 80% 0, 100% 100%, 0% 100%);
+    background-color: #FEBD23;
+    margin:0 0 .65rem 0;
+    font-weight: 800;
+    border-radius: 4px;
+
+
+}
+
+.right{
+    font-weight: 700;
+    font-style: italic;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+
+
+
+@media (min-width:576px) and (max-width:1400px) {
+    .set_margin_bottm{
+        margin-bottom: 14rem!important;
+    }
+}
+
+
+
+/* get_dirction working hours order now */
+/* get_dirction working hours order now */
+.working_hours{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.working_hours_img{
+    width: 25%;
+}
+
+.working_hours_img img{
+  width: 100%;
+}
+.time b{
+    font-weight: 700!important;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.time p{
+    padding:0;margin: 0;
+    color: rgba(0, 0, 0, .333);
+}
+.working_hours .time{
+    padding:.25rem 0;
+    width: 75%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    font-size: .9rem;
+}

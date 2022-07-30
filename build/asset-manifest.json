@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.42e5ead1.css",
+    "main.js": "/static/js/main.63133838.js",
+    "static/media/Banner-images.png": "/static/media/Banner-images.f6ebdb520a25c47a1bfb.png",
+    "static/media/che3.png": "/static/media/che3.ec8cfc1625f98dd71aa5.png",
+    "static/media/chef-2.png": "/static/media/chef-2.01b21b1f367a300d4211.png",
+    "static/media/chef.png": "/static/media/chef.883020c422649574437e.png",
+    "static/media/foodyacontactus.png": "/static/media/foodyacontactus.a3cc0e719d24bc5b3fd2.png",
+    "static/media/iphone.png": "/static/media/iphone.305c44fbf2695a4c904b.png",
+    "static/media/mygirl.png": "/static/media/mygirl.9f5d8f0b63def1ebaf25.png",
+    "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/index.html",
+    "main.42e5ead1.css.map": "/static/css/main.42e5ead1.css.map",
+    "main.63133838.js.map": "/static/js/main.63133838.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.42e5ead1.css",
+    "static/js/main.63133838.js"
+  ]
+}

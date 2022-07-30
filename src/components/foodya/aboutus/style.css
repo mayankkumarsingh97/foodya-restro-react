@@ -1,0 +1,22 @@
+/* About us section  */
+/* About us section  */
+/* About us section  */
+
+.aboutus_img img{
+width: 101%;
+}
+.aboutus_desc h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.aboutus_desc{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    font-weight: 300;
+    color:rgba(0,0,0,1);
+    font-family: 'Times New Roman', Times, serif;
+
+}

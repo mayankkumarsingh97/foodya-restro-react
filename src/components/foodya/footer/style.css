@@ -1,0 +1,45 @@
+.get_direction{
+    width: 100%;
+    display: flex;
+}
+.location_img{
+    width: 17%;
+}
+.location_img img{
+    width: 130%;
+}
+.get_direction .direction_desc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.direction_desc p{
+    margin: 0 !important;
+}
+.direction_desc{
+
+    width: 80%;
+}
+.footer_logo img{
+    width: 50%;
+    
+}
+@media (max-width:575px) {
+    .zomato_logo{
+        display: flex;
+        justify-content: center;
+        width: 100%!important;
+    }
+    .location_img img{
+        width: 100%;
+    }
+}
+.zomato_logo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.zomato_logo img{
+    width: 40%;
+}
