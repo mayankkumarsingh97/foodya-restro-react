@@ -34,62 +34,62 @@ function Home() {
 
             </div>
             <div className="container my-5">
-                <div className="row justify-content-around">
+                <div className="row justify-content-around ">
                     <div className="col-md-3">
-                       <a href="">
-                       <div className="card card-body p-md-2 shadow mt-md-0 mt-2 py-2">
-                            <div className="working_hours">
+                        <a href="" className='text-decoration-none'>
+                            <div className="card card-body p-md-2 shadow mt-md-0 mt-2 py-2">
+                                <div className="working_hours">
 
-                                <div className="working_hours_img">
-                                    <img src={working_hours} alt="working hours" />
+                                    <div className="working_hours_img">
+                                        <img src={working_hours} alt="working hours" />
+                                    </div>
+                                    <div className="time">
+                                        <b>9:30 am - 8:30 pm</b>
+                                        <p>Working Hours</p>
+                                    </div>
                                 </div>
-                                <div className="time">
-                                    <b>9:30 am - 8:30 pm</b>
-                                    <p>Working Hours</p>
-                                </div>
+
                             </div>
-
-                        </div>
-                       </a>
+                        </a>
                     </div>
 
                     <div className="col-md-3">
-                      <a href="">
-                      <div className="card card-body p-md-2 shadow mt-md-0 mt-2 py-2">
-                            <div className="working_hours">
+                        <a href="" className='text-decoration-none'>
+                            <div className="card card-body p-md-2 shadow mt-md-0 mt-2 py-2">
+                                <div className="working_hours">
 
-                                <div className="working_hours_img">
-                                    <img src={working_hours} alt="working hours" />
+                                    <div className="working_hours_img">
+                                        <img src={working_hours} alt="working hours" />
+                                    </div>
+
+                                    <div className="time">
+                                        <b>G 196 Noida</b>
+                                        <p>Get Direction</p>
+                                    </div>
                                 </div>
 
-                                <div className="time">
-                                    <b>G 196 Noida</b>
-                                    <p>Get Direction</p>
-                                </div>
                             </div>
-
-                        </div>
-                      </a>
+                        </a>
                     </div>
                     <div className="col-md-3">
-                   <a href="">
-                   <div className="card card-body p-md-2 shadow mt-md-0 mt-2 py-2">
-                            <div className="working_hours">
+                        <a href="" className='text-decoration-none'>
+                            <div className="card card-body p-md-2 shadow mt-md-0 mt-2 py-2">
+                                <div className="working_hours">
 
-                                <div className="working_hours_img">
-                                    <img src={working_hours} alt="working hours" />
+                                    <div className="working_hours_img">
+                                        <img src={working_hours} alt="working hours" />
+                                    </div>
+                                    <div className="time">
+                                        <b>9310307506</b>
+                                        <p>Call order Now</p>
+                                    </div>
                                 </div>
-                                <div className="time">
-                                    <b>9310307506</b>
-                                    <p>Call order Now</p>
-                                </div>
+
                             </div>
-
-                        </div>
-                   </a>
+                        </a>
                     </div>
-                   
-                  
+
+
                 </div>
             </div>
         </>

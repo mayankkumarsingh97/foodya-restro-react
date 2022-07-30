@@ -1,4 +1,4 @@
-.main2{
+.main2 {
     display: grid;
     align-items: center;
     justify-content: center;
@@ -6,47 +6,91 @@
     /* background-color: lightblue; */
 }
 
-.main2 h2{
+.main2 h2 {
     font-size: 5rem;
     font-family: cursive;
 }
-.main2 h2 .forO4{
+
+.main2 h2 .forO4 {
     color: red;
     font-size: 7rem;
-    box-shadow: 4px 3px  6px rgb(24, 21, 21);
-    margin:0 20px;
+    box-shadow: 4px 3px 6px rgb(24, 21, 21);
+    margin: 0 20px;
 }
-.main2 h2 .forO42{
+
+.main2 h2 .forO42 {
     color: red;
-    margin:0 9px;
-    box-shadow: 4px 3px  6px rgb(24, 21, 21);
+    margin: 0 9px;
+    box-shadow: 4px 3px 6px rgb(24, 21, 21);
 }
+
+.not_found_zero {
+    color: black;
+}
+
+.not_found_zero {
+    /* animation: zero_nf 1s infinite; */
+    /* transition: .5s linear; */
+    animation-name: zero_nf;
+    animation-duration: 4s;
+}
+
+@keyframes zero_nf {
+    from {
+        transform: rotateY(0);
+    }
+
+    to {
+        transform: rotateY(356deg);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 
 @media screen and (max-width:768px) {
-    .main2 h2{
+    .main2 h2 {
         font-size: 3rem;
         font-family: cursive;
     }
-    .main2 h2 .forO4{
+
+    .main2 h2 .forO4 {
         color: red;
         font-size: 4rem;
     }
-    
-    
+
+
 }
 
 @media screen and (max-width:525px) {
-    .main2 h2{
+    .main2 h2 {
         font-size: 1rem;
         font-family: cursive;
     }
-    .main2 h2 .forO4{
+
+    .main2 h2 .forO4 {
         color: red;
         font-size: 2rem;
     }
-    
-    
+
+
 }

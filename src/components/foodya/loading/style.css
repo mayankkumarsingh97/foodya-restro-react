@@ -2,6 +2,9 @@
     0% {
       transform: rotate(0deg);
     }
+    50% {
+      transform: rotate(180deg);
+    }
     100% {
       transform: rotate(360deg);
     }
@@ -18,8 +21,8 @@
     width: 50px;
     height: 50px;
     border: 10px solid #f3f3f3; /* Light grey */
-    border-top: 10px solid #0f0fea; /* Black */
+    border-top: 5px solid #febd23; /* Black */
     border-radius: 50%;
-    animation: spinner 1.5s linear infinite;
+    animation: spinner 1.2s linear infinite;
     font-size: .9rem!important;
   }

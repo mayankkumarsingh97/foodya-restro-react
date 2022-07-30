@@ -33,8 +33,10 @@ body{
     margin:0 0 .65rem 0;
     font-weight: 800;
     border-radius: 4px;
-
-
+    color:black;
+}
+.home_1st_wrappeer a{
+    text-decoration: none!important;
 }
 
 .right{
