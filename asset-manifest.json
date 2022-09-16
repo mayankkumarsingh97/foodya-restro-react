@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/foodya-restro-react/static/css/main.a371a5fa.css",
+    "main.js": "/foodya-restro-react/static/js/main.8e98d82a.js",
+    "static/media/Banner-images.png": "/foodya-restro-react/static/media/Banner-images.f6ebdb520a25c47a1bfb.png",
+    "static/media/picinsert5.png": "/foodya-restro-react/static/media/picinsert5.d94f9005055fbdab9a0e.png",
+    "static/media/momos.png": "/foodya-restro-react/static/media/momos.ce9c9be1f163d28d27fb.png",
+    "static/media/che3.png": "/foodya-restro-react/static/media/che3.ec8cfc1625f98dd71aa5.png",
+    "static/media/chef-2.png": "/foodya-restro-react/static/media/chef-2.01b21b1f367a300d4211.png",
+    "static/media/chef.png": "/foodya-restro-react/static/media/chef.883020c422649574437e.png",
+    "static/media/foodyacontactus.png": "/foodya-restro-react/static/media/foodyacontactus.a3cc0e719d24bc5b3fd2.png",
+    "static/media/swgg.png": "/foodya-restro-react/static/media/swgg.c64e312e3510b0eda5a7.png",
+    "static/media/slick.svg": "/foodya-restro-react/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/foodya-restro-react/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/foodya-restro-react/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/foodya-restro-react/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/foodya-restro-react/index.html",
+    "main.a371a5fa.css.map": "/foodya-restro-react/static/css/main.a371a5fa.css.map",
+    "main.8e98d82a.js.map": "/foodya-restro-react/static/js/main.8e98d82a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a371a5fa.css",
+    "static/js/main.8e98d82a.js"
+  ]
+}
