@@ -21,6 +21,7 @@ root.render(
   <BrowserRouter>
         <Navbar/>
         <Routes>
+          <Route path='/foodya-restro-react/' element={<App/>}> </Route>
           <Route path='/' element={<App/>}> </Route>
           <Route path='/contactus' element={<Contactus/>} />
           <Route path='/menu' element={<Menu/>} />
