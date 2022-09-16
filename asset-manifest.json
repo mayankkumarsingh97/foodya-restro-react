@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/foodya-restro-react/static/css/main.a371a5fa.css",
-    "main.js": "/foodya-restro-react/static/js/main.8e98d82a.js",
+    "main.js": "/foodya-restro-react/static/js/main.c64d0cf4.js",
     "static/media/Banner-images.png": "/foodya-restro-react/static/media/Banner-images.f6ebdb520a25c47a1bfb.png",
     "static/media/picinsert5.png": "/foodya-restro-react/static/media/picinsert5.d94f9005055fbdab9a0e.png",
     "static/media/momos.png": "/foodya-restro-react/static/media/momos.ce9c9be1f163d28d27fb.png",
@@ -16,10 +16,10 @@
     "static/media/slick.woff": "/foodya-restro-react/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/foodya-restro-react/index.html",
     "main.a371a5fa.css.map": "/foodya-restro-react/static/css/main.a371a5fa.css.map",
-    "main.8e98d82a.js.map": "/foodya-restro-react/static/js/main.8e98d82a.js.map"
+    "main.c64d0cf4.js.map": "/foodya-restro-react/static/js/main.c64d0cf4.js.map"
   },
   "entrypoints": [
     "static/css/main.a371a5fa.css",
-    "static/js/main.8e98d82a.js"
+    "static/js/main.c64d0cf4.js"
   ]
 }
