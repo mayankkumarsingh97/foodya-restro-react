@@ -11,7 +11,7 @@ function Contactus() {
   const handleChange = (e) => {
     const { name, value } = e.target;
     setData({
-      ...data,
+      ...data,  
       [name]: value,
     })
   }

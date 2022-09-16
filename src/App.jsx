@@ -5,8 +5,9 @@ import Home from "./components/foodya/home/Home"
 import Aboutus from "./components/foodya/aboutus/Aboutus"
 import OurChefs from "./components/foodya/slider/OurChefs"
 import Contactus from "./components/foodya/contactus/Contactus" 
-import {  Outlet } from "react-router-dom"
+// import {  Outlet } from "react-router-dom"
 import BackToUp from './components/foodya/goTotop/BackToUp';
+
 
 export default function App() {
   return (

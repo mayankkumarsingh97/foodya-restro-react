@@ -16,6 +16,8 @@ import PageNotF from "./components/foodya/pagenotfound/PageNotF"
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
 
+
+
   <BrowserRouter>
         <Navbar/>
         <Routes>
